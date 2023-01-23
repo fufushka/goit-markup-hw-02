@@ -37,12 +37,9 @@ ul {
 }
 /* ------index.html------- */
 body {
-  font-family: Roboto;
+  font-family: Roboto, "sans-serif";
   letter-spacing: 0.02em;
   font-weight: 500;
-}
-.header {
-  background-color: var(--white-color);
 }
 
 .footer {
@@ -75,6 +72,7 @@ span.footer-logo-span {
   color: var(--accent-color);
 }
 .address-link {
+  font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
   color: var(--primary-color);
@@ -158,7 +156,6 @@ span.footer-logo-span {
 }
 
 .footer-paragraph {
-  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -174,6 +171,7 @@ span.footer-logo-span {
   border: 1px solid var(--color-cornflower);
   font-family: inherit;
   font-weight: inherit;
+  letter-spacing: 0.04em;
 }
 .filters-item-btn:hover,
 .filters-item-btn:focus {
